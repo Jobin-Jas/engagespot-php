@@ -9,7 +9,9 @@
 
 
 ## Install
-this package is under development will be published once when completed
+this package is under development will be published once when completed ::
+
+
 Via Composer
 
 ```bash
@@ -20,9 +22,9 @@ $ composer require :vendor/:package_name
 
 ```php
 $engagespot = new  Engagespot([
-    'baseUrl' => 'https://api.staging.engagespot.co/v3',
-    'apiKey' => 'f8p5o24ersuex0sinpqsss3qc',
-    'apiSecret' => 'c1qcl50rhcpicbq84r1rl771ssssg0hj5ghfa4b4cbh971ci6b6b'
+    'baseUrl' => 'base url', 
+    'apiKey' => 'key  obtained from engagespot dashboard',
+    'apiSecret' => 'secret obtained from the engagespot dashboard'
 ]);
 
 echo $engagespot->updateOrCreate('unique identifier');
@@ -48,7 +50,7 @@ If you discover any security related issues, please email :author_email instead 
 
 ## Credits
 
--   [:author_name][link-author]
+-   [:Jobin Jose][https://github.com/Jobin-Jas]
 -   [All Contributors][link-contributors]
 
 ## License
